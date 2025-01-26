@@ -2,7 +2,6 @@
 # 🧠 Large Language Models (LLMs): Fundamentals and Enhancement Techniques
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/llm-repo/pulls)
 
 LLM 기술의 핵심 개념과 향상 기법을 체계적으로 정리한 저장소입니다. 이론 설명과 실제 구현 예시를 포함합니다.
 
