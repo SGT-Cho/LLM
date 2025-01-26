@@ -8,10 +8,8 @@ LLM 기술의 핵심 개념과 향상 기법을 체계적으로 정리한 저장
 ## 📚 Table of Contents
 1. [LLM Overview](#-llm-overview)
 2. [Enhancement Techniques](#-enhancement-techniques)
-3. [Quick Start](#-quick-start)
-4. [Contributing](#-contributing)
-5. [License](#-license)
-6. [References](#-references)
+3. [Contributing](#-contributing)
+4. [References](#-references)
 
 ---
 
@@ -74,27 +72,15 @@ graph TD
 - 추론 속도 2-3배 향상
 
 ### 4. Multimodal Integration
-🌐 **다중 모달 통합**
+🌐 **멀티티 모달 통합**
 - 텍스트 + 이미지/비디오/오디오 처리
 - 주요 아키텍처:
   - Cross-modal Attention
   - Fusion Networks
 
 ---
+  
 
-## 🤝 Contributing
-기여를 환영합니다! 다음 절차를 따라주세요:
-1. 이슈 생성
-2. 포크 후 기능 브랜치 생성
-3. 테스트 코드 작성
-4. PR 제출
-
----
-
-## 📜 License
-이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.
-
----
 
 ## 📚 References
 - [Attention Is All You Need (2017)](https://arxiv.org/abs/1706.03762)
