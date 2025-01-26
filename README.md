@@ -42,11 +42,22 @@ LLM 기술의 핵심 개념과 향상 기법을 체계적으로 정리한 저장
 
 ```mermaid
 graph TD
-    A[User Query] --> B{Retrieval System}
-    B -->|Query| C[(Knowledge Base)]
-    C -->|Retrieve| D[Relevant Context]
-    D --> E{LLM Generator}
-    E --> F[Augmented Response]
+    A[User Question] --> B(Query Embedding)
+    B --> C{Vector DB Search}
+    C --> D[Top-k Documents]
+    D --> E[Context Filtering]
+    E --> F[Re-ranking]
+    F --> G{LLM Generator}
+    G --> H[Final Answer]
+    
+    subgraph Knowledge Base
+        C -->|연결| I[(Chunk Storage)]
+        I --> J[Metadata]
+        I --> K[Text Embeddings]
+    end
+    
+    G -->|요청| M[External APIs]
+    H -->|Feedback| A
 ```
 
 ### 2. Fine-tuning
