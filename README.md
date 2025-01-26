@@ -72,7 +72,7 @@ graph TD
 - 추론 속도 2-3배 향상
 
 ### 4. Multimodal Integration
-🌐 **멀티티 모달 통합**
+🌐 **멀티 모달 통합**
 - 텍스트 + 이미지/비디오/오디오 처리
 - 주요 아키텍처:
   - Cross-modal Attention
