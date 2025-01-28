@@ -66,6 +66,10 @@ graph TD
   - LoRA (Low-Rank Adaptation)
   - Prompt Tuning
 
+I tried the LoRA method to finetune llama 3.1 8b model.
+dataset is about korean food written in Korean.
+It worked well compared to the original llama 3.1
+
 ### 3. Quantization
 ⚖️ **모델 경량화**
 - FP32 → INT8 변환으로 4배 경량화
